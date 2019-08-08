@@ -1,0 +1,122 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title>Actividad: Desarrollando programas en Python No. 10: Arreglos.</title>
+  <meta name="Author" content="Becari@ Anónimo">
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="1348.17">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; color: #0000ee; -webkit-text-stroke: #0000ee}
+    p.p4 {margin: 0.0px 0.0px 12.0px 0.0px; font: 12.0px Times; color: #000000; -webkit-text-stroke: #000000}
+    p.p5 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; color: #000000; -webkit-text-stroke: #000000}
+    p.p6 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; color: #000000; -webkit-text-stroke: #000000; min-height: 14.0px}
+    li.li1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; color: #0000ee; -webkit-text-stroke: #0000ee}
+    li.li4 {margin: 0.0px 0.0px 12.0px 0.0px; font: 12.0px Times; color: #000000; -webkit-text-stroke: #000000}
+    li.li5 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; color: #000000; -webkit-text-stroke: #000000}
+    li.li7 {margin: 0.0px 0.0px 16.6px 0.0px; font: 12.0px Times; color: #000000; -webkit-text-stroke: #000000}
+    li.li8 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; color: #0000ee; -webkit-text-stroke: #000000}
+    span.s1 {text-decoration: underline ; font-kerning: none}
+    span.s2 {font-kerning: none; color: #000000; -webkit-text-stroke: 0px #000000}
+    span.s3 {font-kerning: none}
+    span.s4 {-webkit-text-stroke: 0px #000000}
+    span.s5 {font: 10.0px Times; -webkit-text-stroke: 0px #000000}
+    span.s6 {font: 10.0px Times; font-kerning: none}
+    span.s7 {font: 12.0px Courier; font-kerning: none}
+    span.s8 {text-decoration: underline ; font-kerning: none; color: #0000ee}
+    span.s9 {font: 12.0px Times; text-decoration: underline ; font-kerning: none; color: #0000ee; -webkit-text-stroke: 0px #0000ee}
+    ol.ol1 {list-style-type: decimal}
+    ul.ul1 {list-style-type: disc}
+  </style>
+</head>
+<body>
+<p class="p1"><span class="s1"><a href="file:///Users/elizachavez/Documents/CLASES/Pensamiento/calendario/index.html">Pensamiento Computacional para Ingeniería</a></span><span class="s2"><span class="Apple-converted-space"> </span></span></p>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; font: 14.0px Times; color: #000000; -webkit-text-stroke: #000000"><span class="s3"><b>Actividad: Desarrollando programas en Python No. 10: Arreglos multidimensionales.</b></span></h3>
+<h5 style="margin: 0.0px 0.0px 16.6px 0.0px; font: 10.0px Times; color: #000000; -webkit-text-stroke: #000000"><span class="s3"><b><i>info_outline</i> Actividad: Desarrollando programas en Python No. 10: Arreglos.<span class="Apple-converted-space"> </span></b></span></h5>
+<p class="p4"><span class="s3">Desarrollarás la solución de algunos problemas relacionados con archivos.</span></p>
+<p class="p5"><span class="s3"><br>
+</span></p>
+<h5 style="margin: 0.0px 0.0px 16.6px 0.0px; font: 10.0px Times; color: #000000; -webkit-text-stroke: #000000"><span class="s3"><b><i>group</i> Modalidad<span class="Apple-converted-space"> </span></b></span></h5>
+<p class="p4"><span class="s3">Individual</span></p>
+<p class="p5"><span class="s3"><br>
+</span></p>
+<h5 style="margin: 0.0px 0.0px 16.6px 0.0px; font: 10.0px Times; color: #000000; -webkit-text-stroke: #000000"><span class="s3"><b><i>check</i> Objetivos de aprendizaje</b></span></h5>
+<ul class="ul1">
+  <li class="li5"><span class="s4"></span><span class="s3">Aplicar el concepto de matrices en la solución de problemas.</span></li>
+</ul>
+<p class="p5"><span class="s3"><br>
+</span></p>
+<h5 style="margin: 0.0px 0.0px 16.6px 0.0px; font: 10.0px Times; color: #000000; -webkit-text-stroke: #000000"><span class="s3"><b><i>list</i> Instrucciones</b></span></h5>
+<ul class="ul1">
+  <li class="li5"><span class="s4"></span><span class="s3">Analiza cada uno de los ejercicios que se presentan a continuación. Identifica cual sería el algoritmo para la solución de cada uno de los ejercicios.</span></li>
+  <li class="li5"><span class="s4"></span><span class="s3">Escribe un programa en Python para cada uno de los ejercicios. Recuerda basarte en el algoritmo que generaste.<span class="Apple-converted-space"> </span></span></li>
+  <li class="li5"><span class="s4"></span><span class="s3">Entrega en alphagrader.<span class="Apple-converted-space"> </span></span></li>
+</ul>
+<p class="p6"><span class="s3"></span><br></p>
+<ul class="ul1">
+  <li class="li7"><span class="s5"><b></b></span><span class="s6"><b>Problemas:<br>
+</b></span><span class="s3"><b>Utiliza la estructura </b></span><span class="s7"><b>#define </b></span><span class="s3"><b>para declarar las constantes </b></span><span class="s7"><b>RENGLONES_MAX</b></span><span class="s3"><b> de 10 y </b></span><span class="s7"><b>COLUMNAS_MAX</b></span><span class="s3"><b> de 10, que serán el número máximo de renglones y columnas respectivamente que tendrá la matriz en el programa.</b><br>
+Desarrolla un programa que incluya las siguientes funciones:<br>
+<span class="Apple-converted-space"> </span></span></li>
+  <li class="li7"><span class="s5"><b></b></span><span class="s6"><b>Ejercicio 1<br>
+</b></span><span class="s3">Desarrolla el procedimiento llena_matriz que recibe una matriz de valores enteros de </span><span class="s7">RENGLONES_MAX</span><span class="s3"> por </span><span class="s7">COLUMNAS_MAX.</span><span class="s3"> El procedimiento almacena en cada localidad de matriz un número aleatorio entre -10 y 10.<br>
+</span></li>
+  <li class="li7"><span class="s5"><b></b></span><span class="s6"><b>Ejercicio 2<br>
+</b></span><span class="s3">Desarrolla el procedimiento imprime_matriz que recibe una matriz de valores enteros de </span><span class="s7">RENGLONES_MAX</span><span class="s3"> por </span><span class="s7">COLUMNAS_MAX.</span><span class="s3"> El procedimiento despliega en pantalla el contenido de la matriz.<br>
+</span></li>
+  <li class="li7"><span class="s5"><b></b></span><span class="s6"><b>Ejercicio 3<br>
+</b></span><span class="s3">Desarrolla la función cuenta_positivos que recibe una matriz de valores enteros de </span><span class="s7">RENGLONES_MAX</span><span class="s3"> por </span><span class="s7">COLUMNAS_MAX.</span><span class="s3"> La función regresa el número de elementos positivos en la matriz.<br>
+</span></li>
+  <li class="li7"><span class="s5"><b></b></span><span class="s6"><b>Ejercicio 4<br>
+</b></span><span class="s3">Desarrolla la función suma_diagonal, que recibe una matriz de valores enteros de </span><span class="s7">RENGLONES_MAX</span><span class="s3"> por </span><span class="s7">COLUMNAS_MAX.</span><span class="s3"> La función regresa el resultado de sumar los elementos contenidos en la diagonal de la matriz.<br>
+</span></li>
+  <li class="li7"><span class="s5"><b></b></span><span class="s6"><b>Ejercicio 5<br>
+</b></span><span class="s3">Desarrolla la función mayor que recibe una matriz de valores enteros de </span><span class="s7">RENGLONES_MAX</span><span class="s3"> por </span><span class="s7">COLUMNAS_MAX. </span><span class="s3">La función regresa el mayor elemento contenido en la matriz.<br>
+En el </span><span class="s7">main()</span><span class="s3"> construye un menú que muestre las siguientes opciones:<br>
+</span><span class="s7">MENÚ DE OPCIONES<br>
+1. Llena matriz.<br>
+2. Imprime matriz.<br>
+3. Cuenta positivos en la matriz<br>
+4. Suma Diagonal.<br>
+5. Mayor<br>
+6. Salir<br>
+Opción?</span><span class="s3"><br>
+De acuerdo a la opción seleccionada por el usuario utiliza la función apropiada de las implementadas anteriormente. Utiliza un ciclo </span><span class="s7">do-while</span><span class="s3"> para desplegar el menú en pantalla hasta que el usuario seleccione la opción de Salir. Recuerda que la captura de datos y validación de valores debe ser realizada en el </span><span class="s7">main( )</span><span class="s3">, pues las funciones NO pueden realizar las tareas de validación o captura de datos.<br>
+<b><i>Incluye el algoritmo como comentario al inicio del programa.</i></b><br>
+</span></li>
+  <li class="li7"><span class="s5"><b></b></span><span class="s6"><b>Programa abierto:<br>
+</b></span><span class="s3">Desarrolla un programa donde tengas que hacer representación de matriz de un tipo de información diferente a la del laboratorio, es decir, que tu información haga referencia a un caso concreto o tengo un tema. Implementa al menos 2 operaciones diferentes a las del laboratorio además de procedimientos que impriman la matriz para observar su contenido.</span></li>
+  <ol class="ol1">
+    <li class="li5"><span class="s4"></span><span class="s3">Poblaciones.</span></li>
+    <li class="li5"><span class="s4"></span><span class="s3">Representaciones multidimensionales (4 o 5 dimensiones).</span></li>
+    <li class="li5"><span class="s4"></span><span class="s3">Tablas con información concreta.</span></li>
+  </ol>
+  <li class="li4"><span class="s4"></span><span class="s3">Este programa es tuyo, úsalo para hacer cosas interesante y retadoras <b>no cosas fáciles.</b><br>
+</span></li>
+</ul>
+<p class="p5"><span class="s3"><br>
+</span></p>
+<h5 style="margin: 0.0px 0.0px 16.6px 0.0px; font: 10.0px Times; color: #000000; -webkit-text-stroke: #000000"><span class="s3"><b><i>attachment</i>Recursos</b></span></h5>
+<ul class="ul1">
+  <li class="li8"><span class="s4"><a href="http://roa.uaz.edu.mx/roa/index/visuaObj.php?idObjeto=35"><span class="s8">Repaso: Arreglos y matrices.</span></a></span></li>
+</ul>
+<p class="p5"><span class="s3"><br>
+</span></p>
+<h5 style="margin: 0.0px 0.0px 16.6px 0.0px; font: 10.0px Times; color: #000000; -webkit-text-stroke: #000000"><span class="s3"><b><i>offline_pin</i> Especificaciones de entrega<span class="Apple-converted-space"> </span></b></span></h5>
+<p class="p4"><span class="s3">Los archivos (<b>el .c de cada programa</b>) deberán ser entregados a través de la sección de "Envío de Tareas" de Blackboard los programas tienen que llevar por nombre tu matricula y el número de ejercicio e.g. "A00882900<b>1</b>.c".</span></p>
+<p class="p5"><span class="s3"><br>
+</span></p>
+<h5 style="margin: 0.0px 0.0px 16.6px 0.0px; font: 10.0px Times; color: #000000; -webkit-text-stroke: #000000"><span class="s3"><b>Secciones</b></span></h5>
+<ol class="ol1">
+  <li class="li1"><span class="s4"></span><span class="s1">Descripción</span></li>
+  <li class="li1"><span class="s4"></span><span class="s1">Modalidad</span></li>
+  <li class="li1"><span class="s4"></span><span class="s1">Objetivos</span></li>
+  <li class="li1"><span class="s4"></span><span class="s1">Instrucciones</span></li>
+  <li class="li1"><span class="s4"></span><span class="s1">Recursos</span></li>
+  <li class="li1"><span class="s4"></span><span class="s1">Especificaciones de entrega</span></li>
+</ol>
+<p class="p4"><span class="s3">Powered by <a href="http://materializecss.com/"><span class="s9">Materialize</span></a>.</span></p>
+<p class="p5"><span class="s3">© 2019 Escuela de Ingeniería y Ciencias - Tecnológico de Monterrey.<span class="Apple-converted-space"> </span></span></p>
+</body>
+</html>
